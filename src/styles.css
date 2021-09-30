@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+.App {
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+}
+
+
+
+button {
+  cursor: pointer;
+  background: #0cd1eb;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+h1 {
+  font-size: 40px;
+  color: #326c74;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.Song-names {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  color: #fff;
+  background-color: #326c74;
+    width: 80%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
